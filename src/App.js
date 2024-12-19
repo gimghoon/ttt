@@ -1,11 +1,8 @@
-import Game from "./component/game";
-
+import logo from "./logo.svg";
+import "./App.css";
+import Game from "./ttt/component/game";
 function App() {
-  return (
-    <>
-      <Game></Game>
-    </>
-  );
+  return <Game />;
 }
 
 export default App;
